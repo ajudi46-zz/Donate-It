@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+        <item
+            android:id="@+id/donate"
+            android:title="Donate"
+            android:icon="@drawable/donate_icon"/>
+
+        <item
+            android:id="@+id/leaderboard"
+            android:title="Leaderboard"
+            android:icon="@drawable/leaderboard_icon"
+            />
+
+        <item
+            android:id="@+id/participatedact_nav"
+            android:title="Participated Activity"
+            android:icon="@drawable/participate_icon"/>
+
+        <item
+            android:id="@+id/help"
+            android:title="Help"
+            android:icon="@drawable/help_icon"/>
+
+        <item
+            android:id="@+id/about"
+            android:title="About"
+            android:icon="@drawable/about_icon" />
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/logout_icon"/>
+</menu>

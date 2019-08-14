@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent"
+    tools:context=".Participated_events">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participate in an event First"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:fontFamily="@font/productsans"
+                android:visibility="gone"
+                android:id="@+id/noacttext"
+                android:textStyle="italic"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/productsans"
+                android:id="@+id/participated_table"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:visibility="gone">
+                <TableRow
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:text="Event"
+                        android:fontFamily="@font/productsans"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textSize="32sp"/>
+
+                    <TextView
+                        android:text="Date"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="@font/productsans"
+                        android:layout_weight="1"
+                        android:textSize="32sp"
+                        android:gravity="center"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
